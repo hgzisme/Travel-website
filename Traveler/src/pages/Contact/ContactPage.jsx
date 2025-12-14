@@ -1,5 +1,5 @@
 import React from 'react'
-import MyButton from '../../components/MyButton'
+
 import { Button } from "@/components/ui/button"
 
 const ContactPage = () => {
