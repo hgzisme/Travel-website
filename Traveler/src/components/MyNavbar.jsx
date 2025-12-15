@@ -15,9 +15,9 @@ function MyNavbar() {
                     {/* Desktop Menu */}
                     <div className="hidden md:flex items-center space-x-8">
                         <Link to="/" className="text-sm font-medium hover:text-gray-300 transition-colors">Home</Link>
+                        <Link to="/flight" className="text-sm font-medium hover:text-gray-300 transition-colors">Flight</Link>
                         <Link to="/about" className="text-sm font-medium hover:text-gray-300 transition-colors">About Us</Link>
                         <Link to="/contact" className="text-sm font-medium hover:text-gray-300 transition-colors">Contact Us</Link>
-                        <Link to="/pricing" className="text-sm font-medium hover:text-gray-300 transition-colors">Pricing</Link>
                     </div>
 
                     {/* Right Side Actions */}
