@@ -40,7 +40,7 @@ const HeroSection = () => {
                 </div>
 
                 {/* Main Heading */}
-                <h1 className="text-5xl md:text-7xl lg:text-9xl font-['Orbitron'] font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60 tracking-tighter drop-shadow-2xl animate-fade-in-up delay-100">
+                <h1 className="text-5xl md:text-7xl lg:text-9xl font-['Orbitron'] font-black text-transparent bg-clip-text bg-gradient-to-b from-violet-800 to-purple-400 tracking-tighter drop-shadow-2xl animate-fade-in-up delay-100">
                     TRAVELER
                 </h1>
 

@@ -9,6 +9,7 @@ import FlightPage from './pages/Flight/FlightPage'
 
 import LoginPage from './pages/Authentication/LoginPage'
 import SignUpPage from './pages/Authentication/SignUpPage'
+import DestinationPage from './pages/Destinations/DestinationPage'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/about" element={<AboutUsPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/flight" element={<FlightPage />} />
+        <Route path="/destinations" element={<DestinationPage />} />
       </Routes>
       <MyFooter />
     </>
